@@ -3,6 +3,7 @@
         component.set("v.fields", ["Id", component.get("v.latField"), component.get("v.longField"), component.get("v.titleField")]);
         var recordId = component.get("v.recordId");
         component.set("v.dsRecordId", recordId);
+        alert('test source tree');
         helper.reloadRecord(component);
 	},
 
